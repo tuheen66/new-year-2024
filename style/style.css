@@ -149,10 +149,10 @@ p {
 .venue {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: 60vh;
+    height: 70vh;
     background-image: linear-gradient(rgba(253, 0, 0, 0.205), rgba(255, 255, 255, 1.0));
     border-radius: 10px;
-    padding: 80px 0 20px;
+    padding: 80px 0 50px;
 
 }
 
@@ -175,13 +175,15 @@ p {
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
-    cursor: pointer
+    cursor: pointer;
+
 }
 
 .venue button:hover {
     background-color: white;
     color: red;
     border: 1px solid red;
+
 }
 
 
