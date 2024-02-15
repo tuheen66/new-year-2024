@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+}
+
+.hero {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../images/Banner_Image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    border-radius: 10px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subheading {
+    font-size: 32px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.heading {
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* =======   discount section */
+
+.discount {
+    text-align: center;
+}
+
+.off {
+font-size: 60px;
+color: red;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin: 10px
+}
+
+.holiday {
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+}
+
+.categories {
+text-transform: uppercase;
+font-size: 32px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+}
+
+.img {
+
+width: 65%;
+margin: 50px auto
+}
+
+.img img {
+width: 100%
+}
