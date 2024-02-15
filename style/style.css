@@ -15,6 +15,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 2;
+    color: #000000b4
 }
 
 .hero {
@@ -116,6 +117,7 @@ p {
 
 .midnight-text p {
     margin-bottom: 20px;
+    color:white;
 }
 
 .midnight-img {
@@ -160,6 +162,7 @@ p {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 32px;
+    color: #000000d2
 }
 
 .venue-col {
@@ -205,11 +208,13 @@ p {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
+
 }
 
 .coming h3 {
     font-size: 32px;
     margin-bottom: 10px;
+    color: #000000e1
 }
 
 .coming p {
@@ -262,6 +267,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: #000000e1
 }
 
 .holiday-sale h2 {
@@ -269,7 +275,7 @@ p {
     margin-bottom: 10px;
     font-size: 32px;
     font-weight: bold;
-
+    color: #000000e1
 }
 
 .holiday-sale p {
@@ -337,6 +343,7 @@ p {
     font-weight: 700;
     font-style: normal;
     font-size: 32px;
+    color: #000000e1
 }
 
 
@@ -379,6 +386,7 @@ p {
     font-weight: 700;
     font-style: normal;
     font-size: 32px;
+    color: #000000e1
 }
 
 .subscribe p {
@@ -404,7 +412,13 @@ p {
     background-color: red;
     border: none;
     margin-left: -4px;
-    color: white
+    color: white;
+    cursor: pointer
+}
+
+.subscribe button:hover {
+    background-color: rgb(190, 4, 4);
+
 }
 
 /* footer */
@@ -412,33 +426,47 @@ p {
 footer {
     background-color: #070211;
     color: white;
-    padding: 50px 100px;
+    padding: 10px 0;
     font-family: "Merriweather", serif;
     margin-bottom: 50px;
 }
 
+.footer-container {
+    color: white;
+}
+
+
 .address p {
     margin-bottom: 10px;
+    color: white
 }
 
 .sect1 {
     display: flex;
     justify-content: space-between;
+    color: white
+}
+
+.sect1 p {
+    color: white
 }
 
 .tel-web {
     margin-bottom: 20px;
+    color: white
 }
 
 .call {
     display: flex;
     gap: 5px;
     margin-bottom: 10px;
+
 }
 
 .web {
     display: flex;
-    gap: 5px
+    gap: 5px;
+
 }
 
 hr {
@@ -448,16 +476,23 @@ hr {
 
 .social {
     margin: 20px 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 25px
 }
 
 .social img {
     width: 50px;
-    margin-right: 20px;
+
 }
 
 .copy {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+
+}
+
+.copy p {
+    color: white
 }
