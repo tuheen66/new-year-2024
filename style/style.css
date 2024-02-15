@@ -47,32 +47,199 @@
 }
 
 .off {
-font-size: 60px;
-color: red;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
-margin: 10px
+    font-size: 60px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px
 }
 
 .holiday {
-text-transform: uppercase;
-font-family: Arial, Helvetica, sans-serif;
-color: red;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
 }
 
 .categories {
-text-transform: uppercase;
-font-size: 32px;
-font-family: Arial, Helvetica, sans-serif;
-margin: 10px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
 }
 
 .img {
 
-width: 65%;
-margin: 50px auto
+    width: 65%;
+    margin: 50px auto
 }
 
 .img img {
-width: 100%
+    width: 100%
+}
+
+/* midnight party */
+
+.midnight {
+    color: white;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../images/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    height: 90vh;
+    display: flex;
+
+}
+
+.midnight-text {
+    width: 60%;
+    margin: auto 20px;
+
+}
+
+.midnight-text h3 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+
+}
+
+.midnight-text p {
+    margin-bottom: 20px;
+}
+
+.midnight-img {
+    width: 40%;
+    margin: auto auto;
+}
+
+.midnight-img img {
+    width: 80%;
+}
+
+.midnight button {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer
+}
+
+.midnight button:hover {
+    border: 1px solid white;
+}
+
+
+/* venue section */
+
+.venue {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60vh;
+    background-image: linear-gradient(rgba(253, 0, 0, 0.205), rgba(255, 255, 255, 1.0));
+    border-radius: 10px;
+    padding: 50px 0 20px;
+
+}
+
+.venue p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.venue-col {
+    color: red
+}
+
+.venue button {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer
+}
+
+.venue button:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+
+
+/* offer section */
+
+.offer {
+
+    display: flex;
+}
+
+.coming {
+    width: 33%;
+    margin: 90px 0
+}
+
+.coming h4 {
+    color: red;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.coming h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.coming p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.offer-img {
+    width: 33%
+}
+
+.offer-img img {
+    width: 80%;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.year-2024 {
+    width: 33%;
+    margin: 90px 0
+}
+
+.year-2024 h4 {
+    color: red;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.year-2024 p {
+    width: 90%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.year-2024 img {
+    width: 100px
 }
