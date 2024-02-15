@@ -243,3 +243,68 @@
 .year-2024 img {
     width: 100px
 }
+
+/* holiday sales */
+
+.holiday-sale-text {
+    text-align: center;
+}
+
+.holiday-sale h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.holiday-sale h2 {
+    font-family: merriweather;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.holiday-sale p {
+    width: 60%;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.holiday-sale-img {
+    background-image: url('../images/Rectangle_2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+.img1 {
+    width: 50%;
+}
+
+
+.img2 {
+    width: 50%;
+    position: relative
+}
+
+.girl {
+    width: 60%;
+    margin-left: 215px;
+}
+
+
+.discount-badge {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    width: 250px
+}
+
+.popcorn {
+    width: 100%
+}
